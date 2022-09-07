@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="TemplateMo">
 
-        <title>Lam Nhat Tien - DevOps Engineer</title>
+        <title>Nguyen Tan Tien - DevOps Engineer</title>
 
         <!-- CSS FILES -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -100,7 +100,7 @@ https://templatemo.com/tm-578-first-portfolio
                         <div class="col-lg-7 col-12">
                             <div class="hero-text">
                                 <div class="hero-title-wrap d-flex align-items-center mb-4">
-                                    <img src="images/lam-nhat-tien-avata.jpg" class="avatar-image avatar-image-large img-fluid" alt="">
+                                    <img src="images/nguyen-tan-tien-avatar.jpg" class="avatar-image avatar-image-large img-fluid" alt="">
 
                                     <h1 class="hero-title ms-3 mb-0">Bello, Haha!</h1>
                                 </div>
@@ -136,7 +136,7 @@ https://templatemo.com/tm-578-first-portfolio
                                 <div class="section-title-wrap d-flex justify-content-end align-items-center mb-4">
                                     <h2 class="text-white me-4 mb-0">My Story</h2>
 
-                                    <img src="images/lam-nhat-tien-avata.jpg" class="avatar-image img-fluid" alt="">
+                                    <img src="images/nguyen-tan-tien-avata.jpg" class="avatar-image img-fluid" alt="">
                                 </div>
 
                                 <h3 class="pt-2 mb-3">A little bit about DevOps</h3>
@@ -157,18 +157,18 @@ https://templatemo.com/tm-578-first-portfolio
                         <div class="col-lg-6 col-12">
                             <div class="profile-thumb">
                                 <div class="profile-title">
-                                    <h4 class="mb-0">Information Nhat Tien</h4>
+                                    <h4 class="mb-0">Information Tan Tien</h4>
                                 </div>
 
                                 <div class="profile-body">
                                     <p>
                                         <span class="profile-small-title">Name</span> 
-                                        <span>Lam Nhat Tien</span>
+                                        <span>Nguyen Tan Tien</span>
                                     </p>
 
                                     <p>
                                         <span class="profile-small-title">Birthday</span> 
-                                        <span>Aug 23, 1999</span>
+                                        <span>June 09, 1998</span>
                                     </p>
 
                                     <p>
@@ -178,7 +178,7 @@ https://templatemo.com/tm-578-first-portfolio
 
                                     <p>
                                         <span class="profile-small-title">Email</span> 
-                                        <span><a href="mailto:hello@josh.design">nhattien.lam.545@gmail.com</a></span>
+                                        <span><a href="mailto:hello@josh.design">nguyentantien9698@gmail.com</a></span>
                                     </p>
                                 </div>
                             </div>
@@ -422,7 +422,7 @@ https://templatemo.com/tm-578-first-portfolio
                                 <div class="section-title-wrap d-flex justify-content-center align-items-center mb-5">
                                     <img src="images/aerial-view-man-using-computer-laptop-wooden-table.jpg" class="avatar-image img-fluid" alt="">
 
-                                    <h2 class="text-white ms-4 mb-0">Say Bi Bi!</h2>
+                                    <h2 class="text-white ms-4 mb-0">Hello I am here</h2>
                                 </div>
                             </div>
 
@@ -447,9 +447,9 @@ https://templatemo.com/tm-578-first-portfolio
                                     <ul class="social-icon">
                                         <li class="social-icon-item"><a href="#" class="social-icon-link bi-twitter"></a></li>
 
-                                        <li class="social-icon-item"><a href="https://www.instagram.com/axy.2308/" class="social-icon-link bi-instagram"></a></li>
+                                        <li class="social-icon-item"><a href="https://www.instagram.com/tientien3099/" class="social-icon-link bi-instagram"></a></li>
 
-                                        <li class="social-icon-item"><a href="https://www.facebook.com/nhattien.lam.545" class="social-icon-link bi-facebook"></a></li>
+                                        <li class="social-icon-item"><a href="https://www.facebook.com/profile.php?id=100005705564358" class="social-icon-link bi-facebook"></a></li>
 
                                         <li class="social-icon-item"><a href="https://www.youtube.com/channel/UCxXYqeeoc-tio5wpFE6ttkA" class="social-icon-link bi-youtube"></a></li>
                                     </ul>
@@ -465,14 +465,14 @@ https://templatemo.com/tm-578-first-portfolio
                                     <strong class="site-footer-title d-block mb-3">About</strong>
 
                                     <p class="mb-2">
-                                        <a href="https://www.facebook.com/nhattien.lam.545" target="_blank">Nhat Tien</a> is a professional DevOps. Feel free to get in touch with me.
+                                        <a href="https://www.facebook.com/profile.php?id=100005705564358" target="_blank">Tan Tien</a> is a professional DevOps. Feel free to get in touch with me.
                               </p>
 
                                     <strong class="site-footer-title d-block mt-4 mb-3">Email</strong>
 
                                     <p>
-                                        <a href="nhattien.lam.545@gmail.com">
-                                            nhattien.lam.545@gmail.com
+                                        <a href="nguyentantien9698@gmail.com">
+                                            nguyentantien9698@gmail.com
                                         </a>
                                     </p>
 
