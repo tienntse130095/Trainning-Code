@@ -1,0 +1,44 @@
+pipeline {
+    agent any
+
+    tools {
+        // Install the Maven version configured as "M3" and add it to the path.
+        maven "3.8.6"
+    }
+
+    stages {
+        stage('Build') {
+            steps {
+                // Get some code from a GitHub repository
+                git branch: 'Tien', url: 'https://github.com/AxyRes/TrainingCICD.git'
+
+                // Run Maven on a Unix agent.
+                sh "mvn clean install"
+
+                // To run Maven on a Windows agent, use
+                // bat "mvn -Dmaven.test.failure.ignore=true clean package"
+            }
+
+            post {
+                // If Maven was able to run the tests, even if some of the test
+                // failed, record the test results and archive the jar file.
+                success {
+                    archiveArtifacts 'target/lam-nhat-tien.war'
+                }
+            }
+        }
+        stage('Push Code to nexus'){
+            steps{
+            
+                nexusArtifactUploader artifacts: [[artifactId: 'lam-nhat-tien', classifier: '', file: '/var/lib/jenkins/workspace/jenkins-pipeline/target/lam-nhat-tien.war', type: 'war']], credentialsId: 'token-nexus-admin', groupId: 'com.training.pipeline', nexusUrl: '192.168.12.132:8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'maven-releases', version: '1.0'
+            }
+        }
+        stage('Push Artifact to SSH Server and Deploy'){
+            steps{
+                sshPublisher(publishers: [sshPublisherDesc(configName: 'Ubuntu-Deploy-Server', transfers: [sshTransfer(cleanRemote: false, excludes: '', execCommand: '''echo Avata123 | sudo -S -k wget -O /opt/tomcat/webapps/lam-nhat-tien-1.war http://192.168.12.132:8081/repository/maven-releases/com/training/pipeline/lam-nhat-tien/1.0/lam-nhat-tien-1.0.war
+                echo Avata123 | sudo -S -k chown tomcat:tomcat /opt/tomcat/webapps/lam-nhat-tien-1.war 
+                echo Avata123 | sudo -S -k systemctl restart tomcat''', execTimeout: 120000, flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '', remoteDirectorySDF: false, removePrefix: '', sourceFiles: '')], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: true)])
+            }
+        }
+    }
+}
