@@ -1,7 +1,7 @@
 java-webapp
 =======================
 
-This is website template free I stolen, The author said I can use for my introduction UwU
+This is website template free I stolen, The author said I can use for my introduction.
 
 STEP BY STEP BUILD CICD BY JENKINS:
 
@@ -13,4 +13,4 @@ STEP BY STEP BUILD CICD BY JENKINS:
 
 ========================
 
-Signature: Nguyen Tan Tien
+Signature: Nguyen Tan Tien (Terrence)
