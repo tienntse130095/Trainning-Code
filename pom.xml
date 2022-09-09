@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.cloudifysource.examples</groupId>
-  <artifactId>lam-nhat-tien-webapp</artifactId>
+  <artifactId>Nguyen-Tan-Tien-webapp</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>lam-nhat-tien-webapp Maven Webapp</name>
+  <name>Nguyen-Tan-Tien-webapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -55,7 +55,7 @@
 
     </plugins>
     
-    <finalName>lam-nhat-tien</finalName>
+    <finalName>Nguyen Tan Tien</finalName>
   </build>
 
 <dependencyManagement>
